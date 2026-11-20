@@ -414,7 +414,7 @@ The application supports both **Local MongoDB** and **Cloud MongoDB Atlas (Free 
    - Open `server/.env` in your editor.
    - Set `MONGODB_URI` to your connection string (replace `<username>` and `<password>` with your actual Atlas user credentials):
      ```env
-     MONGODB_URI=mongodb+srv://farm_admin:YourStrongPassword123@cluster0.xxxxx.mongodb.net/smart_livestock_db?retryWrites=true&w=majority
+     MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/smart_livestock_db?retryWrites=true&w=majority
      ```
 6. **Seed Demo Data & Start**:
    ```bash
