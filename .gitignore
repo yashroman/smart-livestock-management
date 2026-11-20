@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & local secrets (CRITICAL: Never commit to Git)
+.env
+.env.*
+!.env.example
+*.env
+*.env.*
+!*.env.example
+
+# Build & compilation outputs
+dist/
+build/
+*.tsbuildinfo
+.vite/
+.turbo/
+
+# Logs & debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Database backups, dumps & storage
+*.dump
+*.bson
+*.sql
+*.sqlite
+*.sqlite3
+backup/
+backups/
+
+# Certificates, private keys & credentials
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.tmp
+*.temp
+*~
